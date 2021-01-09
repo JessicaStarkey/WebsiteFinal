@@ -1,0 +1,94 @@
+/* Styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body  {
+	font-family: Times New Roman, Times, serif;
+	width: auto;
+	color: black;
+	background-color: white;
+}
+a {
+	font-weight: bold;
+	color: black;
+}
+
+/* Header */
+header { 
+    border-bottom: 2px solid black; 
+	color: black;
+} 
+header img { 
+	display: none;
+} 
+header h2 {
+	font-size: 190%;
+}
+header h3 {
+	font-size: 120%;
+}
+
+/* Navigation Menu */
+#nav_menu {
+	display: none;
+}
+
+/* Main */
+main {
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+main h2 {
+	font-size: 120%;
+	text-decoration: underline;
+}
+main p {
+	font-size: 110%;
+}
+section {
+	width: auto;
+}
+section img {
+	display: none;
+}
+figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+figure {
+	width: auto;
+}
+figcaption {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	font-size: 120%;
+	text-decoration: underline;
+}
+table {
+	text-align: center;
+	font-size: 110%;
+}
+table th, td {
+	vertical-align: top;
+}
+table thead {
+	color: black;
+	font-size: 110%;
+}
+tbody blockquote {
+	font-style: italic
+}
+
+#email {
+	display: none;
+}
+
+/* Footer */
+footer { 
+	border-top: 2px solid black;
+}

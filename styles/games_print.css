@@ -1,0 +1,96 @@
+/* Styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body  {
+	font-family: Times New Roman, Times, serif;
+	width: auto;
+	color: black;
+	background-color: white;
+}
+a {
+	font-weight: bold;
+	color: black;
+}
+
+/* Header */
+header { 
+    border-bottom: 2px solid black; 
+	color: black;
+} 
+header img { 
+	display: none;
+} 
+header h2 {
+	font-size: 190%;
+}
+header h3 {
+	font-size: 120%;
+}
+
+/* Navigation Menu */
+#nav_menu {
+	display: none;
+}
+
+/* Main */
+main {
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+main h2 {
+	font-size: 120%;
+	text-decoration: underline;
+}
+main p {
+	font-size: 110%;
+}
+main img {
+	display: none;
+}
+#WoW img{
+	display: none;
+}
+section {
+	width: auto;
+}
+section img {
+	display: none;
+}
+figure {
+	margin: 0;
+	padding: 0;
+}
+figure {
+	width: auto;
+}
+table {
+	text-align: center;
+	font-size: 110%;
+	color: black;
+}
+tbody td a {
+	text-align: center;
+	padding-left: 3em;
+	color: black;
+}
+
+embed {
+	display: none;
+}
+
+#email {
+	display: none;
+}
+
+/* Footer */
+footer { 
+	border-top: 2px solid black;
+} 
+footer p {
+	color: black;
+}

@@ -1,0 +1,216 @@
+/* Styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Page Background */
+html {
+	background: url("../images/background.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Body Background & Styles */
+body  {
+	font-family: Times New Roman, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: #48808D;
+	margin: 2em auto; 
+	padding: 0;
+	border: 3px solid white;
+	box-shadow: 0 9px 18px 9px;
+	color: #85A7CC;
+}
+
+/* Link Styles */
+a {
+	font-weight: bold;
+	color: white;
+}
+a:link, a:visited { 
+    color: white; 
+}
+a:hover, a:focus { 
+    color: #98FFAC;
+}
+
+/* Header */
+header { 
+    background-image: -webkit-linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    background-image: -moz-linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    background-image: -o-linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    background-image: linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    padding: 15px; 
+    border-bottom: 2px solid white; 
+	color: white;
+} 
+header img { 
+	float: left; 
+	padding-right: 15px;
+} 
+header h2 {
+	font-size: 230%;
+}
+header h3 {
+	font-size: 140%;
+}
+
+/* Navigation Menu */
+#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	list-style-type: none; 
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 200px;
+	padding: .7em 0;
+	text-decoration: underline;
+	background-color: #FF46DA;
+	color: white;
+	font-size: 120%;
+}
+#nav_menu ul li a.current {
+	color: #98FFAC;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #85A7CC;
+}
+
+/* Nav Menu Bullets */
+.home a {
+	background:url("../images/flower.png");
+	background-repeat: no-repeat;
+	display: inline;
+	background-position: 25% 50%;
+	background-size: 12%;
+}
+.games a {
+	background:url("../images/flower.png");
+	background-repeat: no-repeat;
+	display: inline;
+	background-position: 25% 50%;
+	background-size: 12%;
+}
+.books a {
+	background:url("../images/flower.png");
+	background-repeat: no-repeat;
+	display: inline;
+	background-position: 25% 50%;
+	background-size: 12%;
+}
+.shows a {
+	background:url("../images/flower.png");
+	background-repeat: no-repeat;
+	display: inline;
+	background-position: 16% 50%;
+	background-size: 12%;
+}
+
+/* Main */
+main {
+	clear: left;
+	background-color: #48808D;
+	color: white;
+	text-align: center;
+	background-image: url("../images/border1.png"), url("../images/border2.png");
+	background-position: right top, left bottom;
+	background-size: 100%;
+	border-top: 2px solid white;
+	background-repeat: no-repeat;
+}
+main h2 {
+	padding-top: .5em;
+	font-size: 180%;
+	padding-bottom: .5em;
+	text-decoration: underline;
+}
+main p {
+	padding: 0 2em 1em 2em;
+	font-size: 110%;
+}
+
+/* Section / Table Styles */
+section {
+	width: 100%;
+}
+section img {
+	height: 100px;
+	width: 100px;
+}
+figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+figure {
+	width: 90%;
+	padding: 1em 1em 0 3em;
+}
+figcaption {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	font-size: 180%;
+	text-decoration: underline;
+}
+table {
+	text-align: center;
+	font-size: 110%;
+}
+table th, td {
+	padding:.5em;
+	vertical-align: top;
+}
+table thead {
+	color: white;
+	font-size: 130%;
+	white-space: nowrap;
+	border-bottom: 2px solid white;
+	border-width: 80%;
+}
+tbody td {
+	position: relative;
+	padding-top: .5em;
+}
+tbody blockquote {
+	font-style: italic
+}
+#first {
+	padding-right: 3em;
+}
+
+/* Email Link */
+#email {
+	padding: 0 2em 1em 2em;
+	font-size: 110%;
+	font-weight: bold;
+	color: white;
+}
+
+/* Footer */
+footer { 
+	border-top: 2px solid white;
+	padding: 15px;
+    background-image: -webkit-linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    background-image: -moz-linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    background-image: -o-linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+    background-image: linear-gradient(45deg, purple 0%, pink 75%, white 100%);
+	clear: both;
+} 
+footer p {
+	position: relative;
+	font-size: 100%;
+	text-align: center;
+	color: white;
+}
